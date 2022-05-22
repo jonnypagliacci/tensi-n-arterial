@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presiónArterial</title>
+</head>
+<body>
+    <script src="mejora.js"></script>
+    <script>
+        document.onload = alert("Hola que tal, Coloca tu Presión Arterial por favor.");
+    </script>
+    <div style="text-align: center; font-size: 60px; border: 1px solid blue;">
+        <h1>Tensión Arterial</h1>
+        <form action="" id="form">
+            <input type="number" name="PresiónSistólica" id="pS" placeholder="Presión Sistólica"></input>
+            <input type="number" name="Presión Diastólica" id="pD" placeholder="Presión Diastólica"></input><br>
+            <input type ="button" id="ACEPTAR" value="ACEPTAR" onclick="getData()"> 
+        </form>
+    </div>
+    <script>
+        document.onload = document.getElementById("pS").focus();
+    </script>
+</body>
+</html>
